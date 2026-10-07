@@ -1,0 +1,369 @@
+{
+  "yields": [
+    {
+      "id": "FoodGalaxythistle",
+      "name": "galaxy thistle",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Stellibinin",
+          "name": "Stellibinin",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "FoodAloe",
+      "name": "aloe",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Aloe",
+          "name": "Aloe",
+          "amount": 10
+        },
+        {
+          "id": "Dermaline",
+          "name": "Dermaline",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodAmbrosiaDeus",
+      "name": "ambrosia deus",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Omnizine",
+          "name": "Omnizine",
+          "amount": 3
+        },
+        {
+          "id": "SpaceDrugs",
+          "name": "Space Mirage",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodAmbrosiaVulgaris",
+      "name": "ambrosia vulgaris",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 5
+        },
+        {
+          "id": "Kelotane",
+          "name": "Kelotane",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodAnomalyBerry",
+      "name": "anomaly berry",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Artifexium",
+          "name": "Artifexium",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "FoodBluePumpkin",
+      "name": "blue pumpkin",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Ammonia",
+          "name": "Ammonia",
+          "amount": 10
+        },
+        {
+          "id": "Chlorine",
+          "name": "Chlorine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodBlueTomato",
+      "name": "blue tomato",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "SpaceLube",
+          "name": "Space Lube",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodBungo",
+      "name": "bungo fruit",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Enzyme",
+          "name": "Universal Enzyme",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodCarrot",
+      "name": "carrot",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Oculine",
+          "name": "Oculine",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "TrashCherryPit",
+      "name": "cherry pit",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Toxin",
+          "name": "Toxin",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "FoodWorldPeas",
+      "name": "cluster of world peas",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Happiness",
+          "name": "Happiness",
+          "amount": 5
+        },
+        {
+          "id": "Pax",
+          "name": "Pax",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "DeathNettle",
+      "name": "death nettle",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "SulfuricAcid",
+          "name": "Sulfuric Acid",
+          "amount": 7.5
+        },
+        {
+          "id": "FluorosulfuricAcid",
+          "name": "Fluorosulfuric Acid",
+          "amount": 7.5
+        }
+      ]
+    },
+    {
+      "id": "FoodExtradimensionalOrange",
+      "name": "extradimensional orange",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Haloperidol",
+          "name": "Haloperidol",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodGlasstle",
+      "name": "glasstle",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Razorium",
+          "name": "Razorium",
+          "amount": 20
+        },
+        {
+          "id": "Desoxyephedrine",
+          "name": "Desoxyephedrine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodGoldenApple",
+      "name": "golden apple",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "DoctorsDelight",
+          "name": "The Doctor'S Delight",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelon",
+      "name": "holymelon",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Holywater",
+          "name": "Holy Water",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelonSlice",
+      "name": "holymelon slice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Holywater",
+          "name": "Holy Water",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "id": "FoodKoibean",
+      "name": "koibean",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "CarpoToxin",
+          "name": "Carpotoxin",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "FoodLaughinPeaPod",
+      "name": "laughin' pea pod",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Laughter",
+          "name": "Laughter",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodLily",
+      "name": "lily",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodLingzhi",
+      "name": "lingzhi",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Ultravasculine",
+          "name": "Ultravasculine",
+          "amount": 20
+        },
+        {
+          "id": "Epinephrine",
+          "name": "Epinephrine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "FoodMimana",
+      "name": "mimana",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "MuteToxin",
+          "name": "Mute Toxin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "Nettle",
+      "name": "nettle",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Histamine",
+          "name": "Histamine",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "FoodPoppy",
+      "name": "poppy",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PyrottonBol",
+      "name": "pyrotton boll",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "outputs": [
+        {
+          "id": "Phlogiston",
+          "name": "Phlogiston",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

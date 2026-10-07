@@ -1,0 +1,3558 @@
+{
+  "source": {
+    "repo": "ss14Starlight/space-station-14",
+    "branch": "starlight-dev",
+    "commit": "f1e7e5de16f733eeb057e3b5b02c8e2c813ca32e"
+  },
+  "yields": [
+    {
+      "id": "AbyssiumOre",
+      "name": "abyssium ore",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "abyssium ore"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodAloe",
+      "name": "aloe",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "aloe"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Aloe",
+          "name": "Aloe",
+          "amount": 10
+        },
+        {
+          "id": "Dermaline",
+          "name": "Dermaline",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodAmbrosiaDeus",
+      "name": "ambrosia deus",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "ambrosia deus"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Omnizine",
+          "name": "Omnizine",
+          "amount": 3
+        },
+        {
+          "id": "SpaceDrugs",
+          "name": "Space Mirage",
+          "amount": 10
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodAmbrosiaVulgaris",
+      "name": "ambrosia vulgaris",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "ambrosia vulgaris"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 5
+        },
+        {
+          "id": "Kelotane",
+          "name": "Kelotane",
+          "amount": 5
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 3
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "PillAmbuzol",
+      "name": "ambuzol pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "ambuzol pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Ambuzol",
+          "name": "Ambuzol",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PillAmbuzolPlus",
+      "name": "ambuzol plus pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "ambuzol plus pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "AmbuzolPlus",
+          "name": "Ambuzol Plus",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatAnomaly",
+      "name": "anomalous meat mass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "anomalous meat mass"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 80
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 320
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 80
+        }
+      ]
+    },
+    {
+      "id": "FoodAnomalyBerry",
+      "name": "anomaly berry",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "anomaly berry"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 20
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 20
+        },
+        {
+          "id": "JuiceBerry",
+          "name": "Berry Juice",
+          "amount": 20
+        },
+        {
+          "id": "Artifexium",
+          "name": "Artifexium",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "FoodAnomalyBerry",
+      "name": "anomaly berry",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "anomaly berry"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceBerry",
+          "name": "Berry Juice",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "ArtifactFragment",
+      "name": "artifact fragment",
+      "method": "juice",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "artifact fragment"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Artifexium",
+          "name": "Artifexium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "Ash",
+      "name": "ash",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "ash"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Ash",
+          "name": "Ash",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "TrashBakedBananaPeel",
+      "name": "baked banana peel",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "baked banana peel"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "PulpedBananaPeel",
+          "name": "Pulped Banana Peel",
+          "amount": 1
+        },
+        {
+          "id": "Bananadine",
+          "name": "Bananadine",
+          "amount": 1
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodBanana",
+      "name": "banana",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "banana"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 8
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 2
+        },
+        {
+          "id": "JuiceBanana",
+          "name": "Banana Juice",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBanana",
+      "name": "banana",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "banana"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceBanana",
+          "name": "Banana Juice",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "MaterialBananium",
+      "name": "bananium",
+      "method": "juice",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "bananium"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "JuiceBanana",
+          "name": "Banana Juice",
+          "amount": 5
+        },
+        {
+          "id": "Honk",
+          "name": "Honk",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "PlushieBee",
+      "name": "bee plushie",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "RGBee plushie",
+        "bee plushie"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Fiber",
+          "name": "Fiber",
+          "amount": 25
+        },
+        {
+          "id": "GroundBee",
+          "name": "Ground Bee",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBerries",
+      "name": "berries",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "berries"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        },
+        {
+          "id": "JuiceBerry",
+          "name": "Berry Juice",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBerries",
+      "name": "berries",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "berries"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceBerry",
+          "name": "Berry Juice",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodBloodTomato",
+      "name": "blood tomato",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "blood tomato"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Blood",
+          "name": "Blood",
+          "amount": 10
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBloodTomato",
+      "name": "blood tomato",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "blood tomato"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Blood",
+          "name": "Blood",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodBloonion",
+      "name": "bloonion bulb",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "bloonion bulb"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Potassium",
+          "name": "Potassium",
+          "amount": 1
+        },
+        {
+          "id": "Phosphorus",
+          "name": "Phosphorus",
+          "amount": 1
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 3
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        },
+        {
+          "id": "Allicin",
+          "name": "Allicin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBluePumpkin",
+      "name": "blue pumpkin",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "blue pumpkin"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "PumpkinFlesh",
+          "name": "Pumpkin Flesh",
+          "amount": 20
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 10
+        },
+        {
+          "id": "Ammonia",
+          "name": "Ammonia",
+          "amount": 10
+        },
+        {
+          "id": "Chlorine",
+          "name": "Chlorine",
+          "amount": 10
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodBlueTomato",
+      "name": "blue tomato",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "blue tomato"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "SpaceLube",
+          "name": "Space Lube",
+          "amount": 15
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodBlueTomato",
+      "name": "blue tomato",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "blue tomato"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "SpaceLube",
+          "name": "Space Lube",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatSnailCooked",
+      "name": "boiled snail",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "boiled snail"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 10
+        },
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 5
+        },
+        {
+          "id": "Water",
+          "name": "Water",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "SheetBrass",
+      "name": "brass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "brass"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Zinc",
+          "name": "Zinc",
+          "amount": 3.3
+        },
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 6.7
+        }
+      ]
+    },
+    {
+      "id": "PatchBrute",
+      "name": "brute patch",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "brute patch"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodBungo",
+      "name": "bungo fruit",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "bungo fruit"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Enzyme",
+          "name": "Universal Enzyme",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PatchBurn",
+      "name": "burn patch",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "burn patch"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Omnizine",
+          "name": "Omnizine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PatchBurnSmall",
+      "name": "burn patch small",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "burn patch small"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Dermaline",
+          "name": "Dermaline",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodCabbage",
+      "name": "cabbage",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "cabbage"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        },
+        {
+          "id": "Water",
+          "name": "Water",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodRealCapfruit",
+      "name": "capfruit",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "capfruit",
+        "gatfruit"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 5
+        },
+        {
+          "id": "Sulfur",
+          "name": "Sulfur",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "MaterialCardboard",
+      "name": "cardboard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "cardboard",
+        "wood"
+      ],
+      "variantCount": 6,
+      "outputs": [
+        {
+          "id": "Cellulose",
+          "name": "Cellulose Fibers",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodCarrot",
+      "name": "carrot",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "carrot"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceCarrot",
+          "name": "Carrot Juice",
+          "amount": 5
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 7
+        },
+        {
+          "id": "Oculine",
+          "name": "Oculine",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "FoodCarrot",
+      "name": "carrot",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "carrot"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceCarrot",
+          "name": "Carrot Juice",
+          "amount": 10
+        },
+        {
+          "id": "Oculine",
+          "name": "Oculine",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "CascadChunk",
+      "name": "Cascad Chunk",
+      "method": "juice",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "Cascad Chunk"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Tritium",
+          "name": "Tritium",
+          "amount": 6
+        },
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "TrashCherryPit",
+      "name": "cherry pit",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "cherry pit"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Toxin",
+          "name": "Toxin",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "SheetClockworkGlass",
+      "name": "clockwork glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "clockwork glass"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Zinc",
+          "name": "Zinc",
+          "amount": 3.3
+        },
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 6.7
+        }
+      ]
+    },
+    {
+      "id": "ShardGlassClockwork",
+      "name": "clockwork glass shard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "clockwork glass shard"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 5
+        },
+        {
+          "id": "Zinc",
+          "name": "Zinc",
+          "amount": 1.65
+        },
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 3.35
+        }
+      ]
+    },
+    {
+      "id": "PatchClown",
+      "name": "clown patch",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "clown patch"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Bananadine",
+          "name": "Bananadine",
+          "amount": 5
+        },
+        {
+          "id": "Happiness",
+          "name": "Happiness",
+          "amount": 5
+        },
+        {
+          "id": "MuteToxin",
+          "name": "Mute Toxin",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodWorldPeas",
+      "name": "cluster of world peas",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "cluster of world peas"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Happiness",
+          "name": "Happiness",
+          "amount": 5
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Pax",
+          "name": "Pax",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "Coal",
+      "name": "coal",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "coal"
+      ],
+      "variantCount": 5,
+      "outputs": [
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 8.4
+        },
+        {
+          "id": "Ammonia",
+          "name": "Ammonia",
+          "amount": 0.8
+        },
+        {
+          "id": "Hydrogen",
+          "name": "Hydrogen",
+          "amount": 0.5
+        },
+        {
+          "id": "Sulfur",
+          "name": "Sulfur",
+          "amount": 0.2
+        },
+        {
+          "id": "Mercury",
+          "name": "Mercury",
+          "amount": 0.1
+        }
+      ]
+    },
+    {
+      "id": "CottonBol",
+      "name": "cotton boll",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "cotton boll"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Fiber",
+          "name": "Fiber",
+          "amount": 5
+        },
+        {
+          "id": "Cellulose",
+          "name": "Cellulose Fibers",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "BasePowerCell",
+      "name": "Cyber Defibrillator Battery Cell",
+      "method": "juice",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "Cyber Defibrillator Battery Cell",
+        "antique power cell prototype",
+        "brigmedic defibrillator battery",
+        "burnout-class mech reactor",
+        "cavalier-class mech reactor"
+      ],
+      "variantCount": 25,
+      "outputs": [
+        {
+          "id": "Zinc",
+          "name": "Zinc",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "DeathNettle",
+      "name": "death nettle",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "death nettle"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "SulfuricAcid",
+          "name": "Sulfuric Acid",
+          "amount": 7.5
+        },
+        {
+          "id": "FluorosulfuricAcid",
+          "name": "Fluorosulfuric Acid",
+          "amount": 7.5
+        }
+      ]
+    },
+    {
+      "id": "PillDesoxyephedrine",
+      "name": "desoxyephedrine",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "desoxyephedrine"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Desoxyephedrine",
+          "name": "Desoxyephedrine",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "PillDesoxyephedrine5",
+      "name": "desoxyephedrine",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "desoxyephedrine"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Desoxyephedrine",
+          "name": "Desoxyephedrine",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodEvilApple",
+      "name": "devilish apple",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "devilish apple"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "DevilJuice",
+          "name": "DevilJuice",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatDragonCutletCooked",
+      "name": "dragon cutlet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "dragon cutlet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Ichor",
+          "name": "Ichor",
+          "amount": 1
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 3
+        },
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatDragon",
+      "name": "dragon flesh",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "dragon flesh"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 20
+        },
+        {
+          "id": "Ichor",
+          "name": "Ichor",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatDragonCooked",
+      "name": "dragon steak",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "dragon steak"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Ichor",
+          "name": "Ichor",
+          "amount": 5
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 15
+        },
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodCorn",
+      "name": "ear of corn",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "ear of corn"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Cornoil",
+          "name": "Corn Oil",
+          "amount": 3
+        },
+        {
+          "id": "Enzyme",
+          "name": "Universal Enzyme",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "Ectoplasm",
+      "name": "ectoplasm",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "ectoplasm"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Fresium",
+          "name": "Fresium",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "Flare",
+      "name": "emergency flare",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "emergency flare"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 10
+        },
+        {
+          "id": "Phosphorus",
+          "name": "Phosphorus",
+          "amount": 6
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 2
+        },
+        {
+          "id": "Oxygen",
+          "name": "Oxygen",
+          "amount": 4
+        },
+        {
+          "id": "Charcoal",
+          "name": "Charcoal",
+          "amount": 4
+        },
+        {
+          "id": "Sulfur",
+          "name": "Sulfur",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "CableDetStack",
+      "name": "explosive cord",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "explosive cord"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Thermite",
+          "name": "Thermite",
+          "amount": 3
+        },
+        {
+          "id": "Charcoal",
+          "name": "Charcoal",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodExtradimensionalOrange",
+      "name": "extradimensional orange",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "extradimensional orange"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Haloperidol",
+          "name": "Haloperidol",
+          "amount": 5
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodGalaxythistle",
+      "name": "galaxythistle",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "galaxythistle"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Stellibinin",
+          "name": "Stellibinin",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "SheetGlass",
+      "name": "glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "glass"
+      ],
+      "variantCount": 4,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "ShardGlass",
+      "name": "glass shard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "glass shard"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodGlasstle",
+      "name": "glasstle",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "glasstle"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Razorium",
+          "name": "Razorium",
+          "amount": 20
+        },
+        {
+          "id": "Desoxyephedrine",
+          "name": "Desoxyephedrine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PillGold",
+      "name": "gold",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "gold"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Gold",
+          "name": "Gold",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "PillGold5",
+      "name": "gold",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "gold"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Gold",
+          "name": "Gold",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "IngotGold",
+      "name": "gold bar",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "gold bar"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Gold",
+          "name": "Gold",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodGoldenApple",
+      "name": "golden apple",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "golden apple"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 10
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 5
+        },
+        {
+          "id": "DoctorsDelight",
+          "name": "The Doctor'S Delight",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodGoldenApple",
+      "name": "golden apple",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "golden apple"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceApple",
+          "name": "Apple Juice",
+          "amount": 10
+        },
+        {
+          "id": "Gold",
+          "name": "Gold",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "BasePowerCage",
+      "name": "high-capacity power cage",
+      "method": "juice",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "high-capacity power cage",
+        "medium-capacity power cage",
+        "omega-capacity power cage",
+        "small-capacity power cage"
+      ],
+      "variantCount": 8,
+      "outputs": [
+        {
+          "id": "Zinc",
+          "name": "Zinc",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelon",
+      "name": "holymelon",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "holymelon"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 4
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 4
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 4
+        },
+        {
+          "id": "Holywater",
+          "name": "Holy Water",
+          "amount": 48
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelon",
+      "name": "holymelon",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "holymelon"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Wine",
+          "name": "Wine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelonSlice",
+      "name": "holymelon slice",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "holymelon slice"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 1
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 1
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 1
+        },
+        {
+          "id": "Holywater",
+          "name": "Holy Water",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "id": "FoodHolymelonSlice",
+      "name": "holymelon slice",
+      "method": "juice",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "holymelon slice"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Wine",
+          "name": "Wine",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "CableHVStack",
+      "name": "HV cable coil",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "HV cable coil"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 2.5
+        },
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 2
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatBase",
+      "name": "killer tomato meat",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "killer tomato meat",
+        "meat clown",
+        "raw bear meat",
+        "raw chicken meat",
+        "raw crab meat"
+      ],
+      "variantCount": 17,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 20
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodKoibean",
+      "name": "koibean",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "koibean"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 12
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 4
+        },
+        {
+          "id": "CarpoToxin",
+          "name": "CarpoToxin",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "FoodKoibean",
+      "name": "koibean",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "koibean"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "CarpoToxin",
+          "name": "CarpoToxin",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodLaughinPeaPod",
+      "name": "laughin' pea pod",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "laughin' pea pod"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 5
+        },
+        {
+          "id": "Laughter",
+          "name": "Laughter",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodLingzhi",
+      "name": "lingzhi",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "lingzhi"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Ultravasculine",
+          "name": "Ultravasculine",
+          "amount": 20
+        },
+        {
+          "id": "Epinephrine",
+          "name": "Epinephrine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PlushieLizard",
+      "name": "lizard plushie",
+      "method": "juice",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "assistant lizard plushie",
+        "atmospheric technician lizard plushie",
+        "bartender lizard plushie",
+        "botanist lizard plushie",
+        "boxer lizard plushie"
+      ],
+      "variantCount": 47,
+      "outputs": [
+        {
+          "id": "JuiceThatMakesYouWeh",
+          "name": "JuiceThatMakesYouWeh",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "ClothingShoeSlippersLizard",
+      "name": "lizard plushie slippers",
+      "method": "juice",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "lizard plushie slippers"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceThatMakesYouWeh",
+          "name": "JuiceThatMakesYouWeh",
+          "amount": 60
+        }
+      ]
+    },
+    {
+      "id": "CableApcStack",
+      "name": "LV cable coil",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "LV cable coil",
+        "MV cable coil"
+      ],
+      "variantCount": 6,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 3
+        },
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatPatty",
+      "name": "meat patty",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "meat patty"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 2.5
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 10
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 2.5
+        }
+      ]
+    },
+    {
+      "id": "MaterialSheetMeat",
+      "name": "meat sheet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "meat sheet"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 7
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatMeatball",
+      "name": "meatball",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "meatball"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 7
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 5
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "MeatwheatBushel",
+      "name": "meatwheat bushel",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "meatwheat bushel",
+        "meatwheat clump"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "PatchMedical",
+      "name": "medical patch",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "medical patch"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Dermaline",
+          "name": "Dermaline",
+          "amount": 10
+        },
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "MetalHydrogen",
+      "name": "metal hydrogen",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "metal hydrogen",
+        "pill"
+      ],
+      "variantCount": 4,
+      "outputs": [
+        {
+          "id": "Hydrogen",
+          "name": "Hydrogen",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PartRodMetal",
+      "name": "metal rod",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "metal rod"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 4.5
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.5
+        }
+      ]
+    },
+    {
+      "id": "FoodMimana",
+      "name": "mimana",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "mimana"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 8
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 2
+        },
+        {
+          "id": "MuteToxin",
+          "name": "Mute Toxin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMimana",
+      "name": "mimana",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "mimana"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceBanana",
+          "name": "Banana Juice",
+          "amount": 5
+        },
+        {
+          "id": "Nothing",
+          "name": "Nothing",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatChickenFriedVox",
+      "name": "mystery fried chicken",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "mystery fried chicken"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 15
+        },
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 10
+        },
+        {
+          "id": "Ammonia",
+          "name": "Ammonia",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "Nettle",
+      "name": "nettle",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "nettle"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Histamine",
+          "name": "Histamine",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "SheetPaper",
+      "name": "paper",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "paper"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Cellulose",
+          "name": "Cellulose Fibers",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "PhenylpiperidineSolidified",
+      "name": "phenylpiperidine crystal",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "phenylpiperidine crystal"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Phenylpiperidine",
+          "name": "Phenylpiperidine",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "PillBicaridine",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillCharcoal",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Charcoal",
+          "name": "Charcoal",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillCopper",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Copper",
+          "name": "Copper",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillDermaline",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Dermaline",
+          "name": "Dermaline",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillDexalin",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Dexalin",
+          "name": "Dexalin",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillDylovene",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Dylovene",
+          "name": "Dylovene",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillHydrogen5",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Hydrogen",
+          "name": "Hydrogen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "PillHyronalin",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Hyronalin",
+          "name": "Hyronalin",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillIron",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillKelotane",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Kelotane",
+          "name": "Kelotane",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillNitrogen10",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nitrogen",
+          "name": "Nitrogen",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PillNitrogen5",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nitrogen",
+          "name": "Nitrogen",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "PillPotassiumIodide",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "PotassiumIodide",
+          "name": "Potassium Iodide",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PillPsicodine",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Psicodine",
+          "name": "Psicodine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "PillTricordrazine",
+      "name": "pill",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "pill"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Tricordrazine",
+          "name": "Tricordrazine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "SheetPlasma",
+      "name": "plasma",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "plasma"
+      ],
+      "variantCount": 4,
+      "outputs": [
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "SheetPGlass",
+      "name": "plasma glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "plasma glass"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "ShardGlassPlasma",
+      "name": "plasma glass shard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "plasma glass shard"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 5
+        },
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "SheetPlasteel",
+      "name": "plasteel",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "plasteel"
+      ],
+      "variantCount": 4,
+      "outputs": [
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 10
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 9
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "SheetPlastic",
+      "name": "plastic",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "plastic"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Oil",
+          "name": "Oil",
+          "amount": 5
+        },
+        {
+          "id": "Phosphorus",
+          "name": "Phosphorus",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodPoppy",
+      "name": "poppy",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "lily",
+        "poppy"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 5
+        },
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatCorgi",
+      "name": "prime-cut corgi meat",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "prime-cut corgi meat"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 10
+        },
+        {
+          "id": "Bicaridine",
+          "name": "Bicaridine",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "PyrottonBol",
+      "name": "pyrotton boll",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "pyrotton boll"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Fiber",
+          "name": "Fiber",
+          "amount": 5
+        },
+        {
+          "id": "Phlogiston",
+          "name": "Phlogiston",
+          "amount": 5
+        },
+        {
+          "id": "Cellulose",
+          "name": "Cellulose Fibers",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "LeavesCannabisRainbow",
+      "name": "rainbow cannabis leaves",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "dried rainbow cannabis leaves",
+        "rainbow cannabis leaves"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "SpaceDrugs",
+          "name": "Space Mirage",
+          "amount": 6
+        },
+        {
+          "id": "Lipolicide",
+          "name": "Lipolicide",
+          "amount": 3
+        },
+        {
+          "id": "MindbreakerToxin",
+          "name": "Mindbreaker Toxin",
+          "amount": 2
+        },
+        {
+          "id": "Happiness",
+          "name": "Happiness",
+          "amount": 2
+        },
+        {
+          "id": "Psicodine",
+          "name": "Psicodine",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatBacon",
+      "name": "raw bacon",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw bacon"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 6
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatCutletBase",
+      "name": "raw bear cutlet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw bear cutlet",
+        "raw chicken cutlet",
+        "raw cutlet",
+        "raw duck cutlet",
+        "raw killer tomato cutlet"
+      ],
+      "variantCount": 10,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 1
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 4
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatFish",
+      "name": "raw carp fillet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw carp fillet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "CarpoToxin",
+          "name": "CarpoToxin",
+          "amount": 5
+        },
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 20
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatFish",
+      "name": "raw carp fillet",
+      "method": "juice",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw carp fillet",
+        "raw thaven fillet"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "CarpoToxin",
+          "name": "CarpoToxin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatDragonCutlet",
+      "name": "raw dragon cutlet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw dragon cutlet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Protein",
+          "name": "Protein",
+          "amount": 4
+        },
+        {
+          "id": "Ichor",
+          "name": "Ichor",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatRouny",
+      "name": "raw rouny meat",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw rouny meat",
+        "raw xeno meat"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "SulfuricAcid",
+          "name": "Sulfuric Acid",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "FoodSausage",
+      "name": "raw sausage",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw sausage"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "TP14FoodMeatSausage",
+      "name": "raw sausage",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw sausage"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 3
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatSnake",
+      "name": "raw snake meat",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw snake meat"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 10
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 3
+        },
+        {
+          "id": "Toxin",
+          "name": "Toxin",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "FoodThavenMeat",
+      "name": "raw thaven fillet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw thaven fillet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "CarpoToxin",
+          "name": "CarpoToxin",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatXenoCutlet",
+      "name": "raw xeno cutlet",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "raw xeno cutlet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "SulfuricAcid",
+          "name": "Sulfuric Acid",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "id": "MaterialDiamond",
+      "name": "refined diamond",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "refined diamond"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "SheetRGlass",
+      "name": "reinforced glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "reinforced glass"
+      ],
+      "variantCount": 3,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 4.5
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.5
+        }
+      ]
+    },
+    {
+      "id": "ShardGlassReinforced",
+      "name": "reinforced glass shard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "reinforced glass shard"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 5
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 2.25
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.25
+        }
+      ]
+    },
+    {
+      "id": "SheetRPGlass",
+      "name": "reinforced plasma glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "reinforced plasma glass"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Plasma",
+          "name": "Plasma",
+          "amount": 10
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 4.5
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.5
+        }
+      ]
+    },
+    {
+      "id": "SheetRUGlass",
+      "name": "reinforced uranium glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "reinforced uranium glass"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Uranium",
+          "name": "Uranium",
+          "amount": 10
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 4.5
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 0.5
+        }
+      ]
+    },
+    {
+      "id": "FoodResinfera",
+      "name": "resinfera",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "resinfera"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Acrileni",
+          "name": "Acrileni",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatRotten",
+      "name": "rotten meat",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "rotten meat"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "UncookedAnimalProteins",
+          "name": "Uncooked Animal Proteins",
+          "amount": 10
+        },
+        {
+          "id": "GastroToxin",
+          "name": "GastroToxin",
+          "amount": 16
+        },
+        {
+          "id": "Fat",
+          "name": "Fat",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "SaltOre",
+      "name": "salt",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "salt"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "TableSalt",
+          "name": "Table Salt",
+          "amount": 9.99
+        },
+        {
+          "id": "Iodine",
+          "name": "Iodine",
+          "amount": 0.01
+        }
+      ]
+    },
+    {
+      "id": "SaxophoneInstrument",
+      "name": "saxophone",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "saxophone"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Brass",
+          "name": "Brass",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "IngotSilver",
+      "name": "silver bar",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "silver bar"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silver",
+          "name": "Silver",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "FoodMeatSlime",
+      "name": "slimeball",
+      "method": "juice",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "slimeball"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Slime",
+          "name": "Slime",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "MaterialSmileExtract",
+      "name": "smile extract",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "smile extract"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Omnizine",
+          "name": "Omnizine",
+          "amount": 30
+        },
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 10
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "DrinkCanBase",
+      "name": "soda can",
+      "method": "grind",
+      "sourceId": "drinks",
+      "sourceLabel": "Soda machine",
+      "examples": [
+        "Blood-red Brew can",
+        "Changeling Sting can",
+        "Crab Juice can",
+        "Dr. Gibb can",
+        "Fourteen Loko can"
+      ],
+      "variantCount": 25,
+      "outputs": [
+        {
+          "id": "Aluminium",
+          "name": "Aluminium",
+          "amount": 4
+        },
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "PillSpaceDrugs",
+      "name": "space mirage",
+      "method": "grind",
+      "sourceId": "station",
+      "sourceLabel": "Station",
+      "examples": [
+        "space mirage"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "SpaceDrugs",
+          "name": "Space Mirage",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "id": "FoodSpacemansTrumpet",
+      "name": "spaceman's trumpet",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "spaceman's trumpet"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 2
+        },
+        {
+          "id": "Cellulose",
+          "name": "Cellulose Fibers",
+          "amount": 10
+        },
+        {
+          "id": "PolypyryliumOligomers",
+          "name": "Polypyrylium Oligomers",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "id": "FoodSpaceshroom",
+      "name": "spaceshroom",
+      "method": "juice",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "spaceshroom"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "SpaceDrugs",
+          "name": "Space Mirage",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "SheetSteel",
+      "name": "steel",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "steel"
+      ],
+      "variantCount": 4,
+      "outputs": [
+        {
+          "id": "Iron",
+          "name": "Iron",
+          "amount": 9
+        },
+        {
+          "id": "Carbon",
+          "name": "Carbon",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "Sugarcane",
+      "name": "sugarcane",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "sugarcane"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodTomato",
+      "name": "tomato",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "tomato"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 7
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 3
+        },
+        {
+          "id": "Water",
+          "name": "Water",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "SheetUGlass",
+      "name": "uranium glass",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "uranium glass"
+      ],
+      "variantCount": 2,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 10
+        },
+        {
+          "id": "Uranium",
+          "name": "Uranium",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "ShardGlassUranium",
+      "name": "uranium glass shard",
+      "method": "grind",
+      "sourceId": "materials",
+      "sourceLabel": "Materials",
+      "examples": [
+        "uranium glass shard"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Silicon",
+          "name": "Silicon",
+          "amount": 5
+        },
+        {
+          "id": "Uranium",
+          "name": "Uranium",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "id": "PlushieVictor",
+      "name": "victor jr. plushie",
+      "method": "juice",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "victor jr. plushie"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "JuiceThatMakesYouWeh",
+          "name": "JuiceThatMakesYouWeh",
+          "amount": 15
+        },
+        {
+          "id": "Saline",
+          "name": "Saline",
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "id": "FoodWatermelon",
+      "name": "watermelon",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "watermelon"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 4
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 4
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 4
+        },
+        {
+          "id": "JuiceWatermelon",
+          "name": "Watermelon Juice",
+          "amount": 8
+        },
+        {
+          "id": "Water",
+          "name": "Water",
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "id": "FoodWatermelonSlice",
+      "name": "watermelon slice",
+      "method": "grind",
+      "sourceId": "kitchen",
+      "sourceLabel": "Kitchen",
+      "examples": [
+        "watermelon slice"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Nutriment",
+          "name": "Nutriment",
+          "amount": 1
+        },
+        {
+          "id": "Vitamin",
+          "name": "Vitamin",
+          "amount": 1
+        },
+        {
+          "id": "Sugar",
+          "name": "Sugar",
+          "amount": 1
+        },
+        {
+          "id": "JuiceWatermelon",
+          "name": "Watermelon Juice",
+          "amount": 2
+        },
+        {
+          "id": "Water",
+          "name": "Water",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "id": "WheatBushel",
+      "name": "wheat bushel",
+      "method": "grind",
+      "sourceId": "botany",
+      "sourceLabel": "Botany",
+      "examples": [
+        "wheat bushel"
+      ],
+      "variantCount": 1,
+      "outputs": [
+        {
+          "id": "Flour",
+          "name": "Flour",
+          "amount": 15
+        }
+      ]
+    }
+  ]
+}

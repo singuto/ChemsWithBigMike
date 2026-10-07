@@ -1,0 +1,103 @@
+{
+  "categories": [
+    {
+      "id": "basic-t1",
+      "name": "BASIC Tier 1s",
+      "note": "This is the bare minimum you need to do quickly. Use the Jug boxes.",
+      "items": [
+        { "id": "Bicaridine", "amount": 240 },
+        { "id": "Dermaline", "amount": 240 },
+        { "id": "Dylovene", "amount": 240 },
+        { "id": "Arithrazine", "amount": 240 }
+      ]
+    },
+    {
+      "id": "airloss-t1",
+      "name": "AIRLOSS Tier 1s",
+      "note": "Highly requested after the basics — get it out quick.",
+      "items": [
+        { "id": "Amoxla", "amount": 200 },
+        { "id": "Saline", "amount": 200 },
+        { "id": "DexalinPlus", "amount": 240 }
+      ]
+    },
+    {
+      "id": "brute-t2",
+      "name": "BRUTE Tier 2s",
+      "note": "Don't mix T2 Brutes together, or you make Razorium.",
+      "items": [
+        { "id": "Bruizine", "amount": 240 },
+        { "id": "Lacerinol", "amount": 240 },
+        { "id": "Puncturase", "amount": 240 }
+      ]
+    },
+    {
+      "id": "burn-t2",
+      "name": "BURN Tier 2s",
+      "note": "Get all the prep materials so you only heat the beaker once.",
+      "items": [
+        { "id": "Leporazine", "amount": 480 },
+        { "id": "Pyrazine", "amount": 240 },
+        { "id": "Insuzine", "amount": 240 },
+        { "id": "Sigynate", "amount": 320 },
+        { "id": "Siderlac", "amount": 160, "optional": true },
+        { "id": "Oculine", "amount": 160 }
+      ]
+    },
+    {
+      "id": "cryo-t1",
+      "name": "CRYO Tier 1s",
+      "note": "Extra Cryox is optionally used for Tier 2 Cryos or Botany.",
+      "items": [
+        { "id": "Cryoxadone", "amount": 540 },
+        { "id": "Doxarubixadone", "amount": 240 },
+        { "id": "Arcryox", "amount": 180 }
+      ]
+    },
+    {
+      "id": "botany",
+      "name": "BOTANY",
+      "note": "Ordered by importance to the botanist / Biofab.",
+      "items": [
+        { "id": "UnstableMutagen", "amount": 240 },
+        { "id": "Cryoxadone", "amount": 180 },
+        { "id": "Dylovene", "amount": 90 },
+        { "id": "Phalanximine", "amount": 90 },
+        { "id": "Diethylamine", "amount": 240 },
+        { "id": "Left4Zed", "amount": 90, "optional": true },
+        { "id": "RobustHarvest", "amount": 90, "optional": true }
+      ]
+    },
+    {
+      "id": "toxic-t2",
+      "name": "TOXIC Tier 2s",
+      "note": "Assumes you already did basic T1 toxics earlier.",
+      "items": [
+        { "id": "Diphenhydramine", "amount": 480 },
+        { "id": "Charcoal", "amount": 150 }
+      ]
+    },
+    {
+      "id": "cryo-t2",
+      "name": "CRYO Tier 2s",
+      "note": "Usually optional, complicated reagents.",
+      "items": [
+        { "id": "Necrosol", "amount": 240 },
+        { "id": "Chronexaline", "amount": 180 }
+      ]
+    },
+    {
+      "id": "misc",
+      "name": "MISC",
+      "note": "Typically in abundance in kits, medbots, or niche use-cases.",
+      "items": [
+        { "id": "Tricordrazine", "amount": 120 },
+        { "id": "Epinephrine", "amount": 240 },
+        { "id": "Ethylredoxrazine", "amount": 120 },
+        { "id": "Haloperidol", "amount": 120 },
+        { "id": "TranexamicAcid", "amount": 120 },
+        { "id": "Ambuzol", "amount": 120 }
+      ]
+    }
+  ]
+}

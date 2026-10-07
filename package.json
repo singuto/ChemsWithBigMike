@@ -1,0 +1,71 @@
+{
+  "name": "chem-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "app": "npm run build && electron --no-sandbox electron/main.js",
+    "package": "npm run build && electron-builder --linux AppImage && node electron/write-desktop.js",
+    "package:linux": "npm run build && electron-builder --linux AppImage --publish never",
+    "package:win": "npm run build && electron-builder --win nsis --publish never"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "engines": {
+    "node": ">=18.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^6.3.5"
+  },
+  "build": {
+    "afterPack": "electron/after-pack.cjs",
+    "appId": "chems.bigmike",
+    "productName": "Chems with big mike",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility",
+      "icon": "public/icon.png",
+      "executableName": "chems-with-big-mike",
+      "desktop": {
+        "Name": "Chems with big mike",
+        "Comment": "Starlight chemistry recipes"
+      }
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "public/icon.png",
+      "executableName": "chems-with-big-mike"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

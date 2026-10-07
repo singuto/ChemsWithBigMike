@@ -1,0 +1,42 @@
+{
+  "always": [
+    { "id": "have", "label": "I already have some" },
+    { "id": "cargo", "label": "Cargo order" },
+    { "id": "other-dept", "label": "Ask another department" },
+    { "id": "custom", "label": "Other (note below)" }
+  ],
+  "reagents": {
+    "Water": [
+      { "id": "sink", "label": "Sink / water tank" },
+      { "id": "water-cooler", "label": "Water cooler" }
+    ],
+    "Blood": [
+      { "id": "self", "label": "Drain from yourself" },
+      { "id": "pet", "label": "Drain from a pet or monkey" }
+    ],
+    "WeldingFuel": [
+      { "id": "engineering", "label": "Engineering (welder tank)" },
+      { "id": "vend-extra", "label": "ChemVend extra / syndicate jug" }
+    ],
+    "Plasma": [
+      { "id": "vend-extra", "label": "ChemVend extra plasma vial" },
+      { "id": "salvage", "label": "Salvage / mining" },
+      { "id": "research", "label": "Research" }
+    ],
+    "Aloe": [
+      { "id": "botany", "label": "Botany (aloe)" }
+    ],
+    "Stellibinin": [
+      { "id": "botany", "label": "Botany (galaxy thistle)" }
+    ],
+    "Oil": [
+      { "id": "kitchen", "label": "Kitchen / extra oil" }
+    ],
+    "Ethanol": [
+      { "id": "bar", "label": "Bar / booze-o-mat" }
+    ],
+    "Sugar": [
+      { "id": "kitchen", "label": "Kitchen" }
+    ]
+  }
+}

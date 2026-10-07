@@ -1,0 +1,508 @@
+{
+  "source": {
+    "repo": "ss14Starlight/space-station-14",
+    "branch": "starlight-dev",
+    "commit": "f1e7e5de16f733eeb057e3b5b02c8e2c813ca32e"
+  },
+  "dispenser": {
+    "loadedJugs": [
+      {
+        "container": "JugAluminium",
+        "id": "Aluminium",
+        "name": "Aluminium",
+        "quantity": 240
+      },
+      {
+        "container": "JugChlorine",
+        "id": "Chlorine",
+        "name": "Chlorine",
+        "quantity": 240
+      },
+      {
+        "container": "JugEthanol",
+        "id": "Ethanol",
+        "name": "Ethanol",
+        "quantity": 240
+      },
+      {
+        "container": "JugFluorine",
+        "id": "Fluorine",
+        "name": "Fluorine",
+        "quantity": 240
+      },
+      {
+        "container": "JugIodine",
+        "id": "Iodine",
+        "name": "Iodine",
+        "quantity": 240
+      },
+      {
+        "container": "JugLithium",
+        "id": "Lithium",
+        "name": "Lithium",
+        "quantity": 240
+      },
+      {
+        "container": "JugMercury",
+        "id": "Mercury",
+        "name": "Mercury",
+        "quantity": 240
+      },
+      {
+        "container": "JugNitrogen",
+        "id": "Nitrogen",
+        "name": "Nitrogen",
+        "quantity": 240
+      },
+      {
+        "container": "JugPotassium",
+        "id": "Potassium",
+        "name": "Potassium",
+        "quantity": 240
+      },
+      {
+        "container": "JugRadium",
+        "id": "Radium",
+        "name": "Radium",
+        "quantity": 240
+      },
+      {
+        "container": "JugSodium",
+        "id": "Sodium",
+        "name": "Sodium",
+        "quantity": 240
+      },
+      {
+        "container": "JugSulfur",
+        "id": "Sulfur",
+        "name": "Sulfur",
+        "quantity": 240
+      }
+    ],
+    "generatable": [
+      {
+        "id": "Iron",
+        "name": "Iron",
+        "energyPerUnit": 2
+      },
+      {
+        "id": "Carbon",
+        "name": "Carbon",
+        "energyPerUnit": 2
+      },
+      {
+        "id": "Copper",
+        "name": "Copper",
+        "energyPerUnit": 2
+      },
+      {
+        "id": "Hydrogen",
+        "name": "Hydrogen",
+        "energyPerUnit": 2
+      },
+      {
+        "id": "Oxygen",
+        "name": "Oxygen",
+        "energyPerUnit": 0
+      },
+      {
+        "id": "Sugar",
+        "name": "Sugar",
+        "energyPerUnit": 2
+      },
+      {
+        "id": "Silicon",
+        "name": "Silicon",
+        "energyPerUnit": 5
+      },
+      {
+        "id": "Phosphorus",
+        "name": "Phosphorus",
+        "energyPerUnit": 5
+      }
+    ]
+  },
+  "chemVend": {
+    "startingInventory": [
+      {
+        "container": "Jug",
+        "count": 8
+      },
+      {
+        "container": "JugAluminium",
+        "count": 2,
+        "id": "Aluminium",
+        "name": "Aluminium",
+        "quantity": 240
+      },
+      {
+        "container": "JugCarbon",
+        "count": 4,
+        "id": "Carbon",
+        "name": "Carbon",
+        "quantity": 240
+      },
+      {
+        "container": "JugChlorine",
+        "count": 1,
+        "id": "Chlorine",
+        "name": "Chlorine",
+        "quantity": 240
+      },
+      {
+        "container": "JugCopper",
+        "count": 2,
+        "id": "Copper",
+        "name": "Copper",
+        "quantity": 240
+      },
+      {
+        "container": "JugEthanol",
+        "count": 2,
+        "id": "Ethanol",
+        "name": "Ethanol",
+        "quantity": 240
+      },
+      {
+        "container": "JugFluorine",
+        "count": 1,
+        "id": "Fluorine",
+        "name": "Fluorine",
+        "quantity": 240
+      },
+      {
+        "container": "JugHydrogen",
+        "count": 3,
+        "id": "Hydrogen",
+        "name": "Hydrogen",
+        "quantity": 240
+      },
+      {
+        "container": "JugIodine",
+        "count": 1,
+        "id": "Iodine",
+        "name": "Iodine",
+        "quantity": 240
+      },
+      {
+        "container": "JugIron",
+        "count": 2,
+        "id": "Iron",
+        "name": "Iron",
+        "quantity": 240
+      },
+      {
+        "container": "JugLithium",
+        "count": 2,
+        "id": "Lithium",
+        "name": "Lithium",
+        "quantity": 240
+      },
+      {
+        "container": "JugMercury",
+        "count": 1,
+        "id": "Mercury",
+        "name": "Mercury",
+        "quantity": 240
+      },
+      {
+        "container": "JugNitrogen",
+        "count": 3,
+        "id": "Nitrogen",
+        "name": "Nitrogen",
+        "quantity": 240
+      },
+      {
+        "container": "JugOxygen",
+        "count": 3,
+        "id": "Oxygen",
+        "name": "Oxygen",
+        "quantity": 240
+      },
+      {
+        "container": "JugPhosphorus",
+        "count": 1,
+        "id": "Phosphorus",
+        "name": "Phosphorus",
+        "quantity": 240
+      },
+      {
+        "container": "JugPotassium",
+        "count": 2,
+        "id": "Potassium",
+        "name": "Potassium",
+        "quantity": 240
+      },
+      {
+        "container": "JugRadium",
+        "count": 1,
+        "id": "Radium",
+        "name": "Radium",
+        "quantity": 240
+      },
+      {
+        "container": "JugSilicon",
+        "count": 2,
+        "id": "Silicon",
+        "name": "Silicon",
+        "quantity": 240
+      },
+      {
+        "container": "JugSodium",
+        "count": 2,
+        "id": "Sodium",
+        "name": "Sodium",
+        "quantity": 240
+      },
+      {
+        "container": "JugSugar",
+        "count": 3,
+        "id": "Sugar",
+        "name": "Sugar",
+        "quantity": 240
+      },
+      {
+        "container": "JugSulfur",
+        "count": 1,
+        "id": "Sulfur",
+        "name": "Sulfur",
+        "quantity": 240
+      }
+    ]
+  },
+  "chemVendExtra": {
+    "contrabandInventory": [
+      {
+        "container": "DrinkLithiumFlask",
+        "count": 1
+      },
+      {
+        "container": "StrangePill",
+        "count": 3
+      },
+      {
+        "container": "ChemistryBottleToxin",
+        "count": 1
+      }
+    ],
+    "emaggedInventory": [
+      {
+        "container": "OminousPill",
+        "count": 2
+      }
+    ],
+    "syndicate": {
+      "startingInventory": [
+        {
+          "container": "Jug",
+          "count": 8
+        },
+        {
+          "container": "JugAluminium",
+          "count": 2,
+          "id": "Aluminium",
+          "name": "Aluminium",
+          "quantity": 240
+        },
+        {
+          "container": "JugCarbon",
+          "count": 4,
+          "id": "Carbon",
+          "name": "Carbon",
+          "quantity": 240
+        },
+        {
+          "container": "JugChlorine",
+          "count": 1,
+          "id": "Chlorine",
+          "name": "Chlorine",
+          "quantity": 240
+        },
+        {
+          "container": "JugCopper",
+          "count": 2,
+          "id": "Copper",
+          "name": "Copper",
+          "quantity": 240
+        },
+        {
+          "container": "JugEthanol",
+          "count": 2,
+          "id": "Ethanol",
+          "name": "Ethanol",
+          "quantity": 240
+        },
+        {
+          "container": "JugFluorine",
+          "count": 1,
+          "id": "Fluorine",
+          "name": "Fluorine",
+          "quantity": 240
+        },
+        {
+          "container": "JugHydrogen",
+          "count": 3,
+          "id": "Hydrogen",
+          "name": "Hydrogen",
+          "quantity": 240
+        },
+        {
+          "container": "JugIodine",
+          "count": 1,
+          "id": "Iodine",
+          "name": "Iodine",
+          "quantity": 240
+        },
+        {
+          "container": "JugIron",
+          "count": 2,
+          "id": "Iron",
+          "name": "Iron",
+          "quantity": 240
+        },
+        {
+          "container": "JugLithium",
+          "count": 2,
+          "id": "Lithium",
+          "name": "Lithium",
+          "quantity": 240
+        },
+        {
+          "container": "JugMercury",
+          "count": 1,
+          "id": "Mercury",
+          "name": "Mercury",
+          "quantity": 240
+        },
+        {
+          "container": "JugNitrogen",
+          "count": 3,
+          "id": "Nitrogen",
+          "name": "Nitrogen",
+          "quantity": 240
+        },
+        {
+          "container": "JugOxygen",
+          "count": 3,
+          "id": "Oxygen",
+          "name": "Oxygen",
+          "quantity": 240
+        },
+        {
+          "container": "JugPhosphorus",
+          "count": 1,
+          "id": "Phosphorus",
+          "name": "Phosphorus",
+          "quantity": 240
+        },
+        {
+          "container": "JugPotassium",
+          "count": 2,
+          "id": "Potassium",
+          "name": "Potassium",
+          "quantity": 240
+        },
+        {
+          "container": "JugRadium",
+          "count": 1,
+          "id": "Radium",
+          "name": "Radium",
+          "quantity": 240
+        },
+        {
+          "container": "JugSilicon",
+          "count": 2,
+          "id": "Silicon",
+          "name": "Silicon",
+          "quantity": 240
+        },
+        {
+          "container": "JugSodium",
+          "count": 2,
+          "id": "Sodium",
+          "name": "Sodium",
+          "quantity": 240
+        },
+        {
+          "container": "JugSugar",
+          "count": 3,
+          "id": "Sugar",
+          "name": "Sugar",
+          "quantity": 240
+        },
+        {
+          "container": "JugSulfur",
+          "count": 1,
+          "id": "Sulfur",
+          "name": "Sulfur",
+          "quantity": 240
+        },
+        {
+          "container": "JugWeldingFuel",
+          "count": 1,
+          "id": "WeldingFuel",
+          "name": "Welding Fuel",
+          "quantity": 240
+        },
+        {
+          "container": "PlasmaChemistryVial",
+          "count": 1
+        }
+      ],
+      "contrabandInventory": [
+        {
+          "container": "DrinkLithiumFlask",
+          "count": 1
+        },
+        {
+          "container": "OminousPill",
+          "count": 3
+        },
+        {
+          "container": "ChemistryBottlePax",
+          "count": 3
+        },
+        {
+          "container": "ChemistryBottleMuteToxin",
+          "count": 3
+        },
+        {
+          "container": "ChemistryBottleLead",
+          "count": 2
+        },
+        {
+          "container": "ChemistryBottleToxin",
+          "count": 1
+        }
+      ],
+      "emaggedInventory": [
+        {
+          "container": "StrangePill",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "startingReagentIds": [
+    "Aluminium",
+    "Chlorine",
+    "Ethanol",
+    "Fluorine",
+    "Iodine",
+    "Lithium",
+    "Mercury",
+    "Nitrogen",
+    "Potassium",
+    "Radium",
+    "Sodium",
+    "Sulfur",
+    "Iron",
+    "Carbon",
+    "Copper",
+    "Hydrogen",
+    "Oxygen",
+    "Sugar",
+    "Silicon",
+    "Phosphorus"
+  ]
+}
