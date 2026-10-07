@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "app": "npm run build && electron --no-sandbox electron/main.js",
     "package": "npm run build && electron-builder --linux AppImage && node electron/write-desktop.js",
-    "package:linux": "npm run build && electron-builder --linux AppImage --publish never",
+    "package:linux": "npm run build && electron-builder --linux deb AppImage --publish never",
     "package:win": "npm run build && electron-builder --win nsis --publish never"
   },
   "dependencies": {
@@ -46,6 +46,7 @@
     ],
     "linux": {
       "target": [
+        "deb",
         "AppImage"
       ],
       "category": "Utility",
@@ -55,6 +56,9 @@
         "Name": "Chems with big mike",
         "Comment": "Starlight chemistry recipes"
       }
+    },
+    "deb": {
+      "packageName": "chems-with-big-mike"
     },
     "win": {
       "target": [

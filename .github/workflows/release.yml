@@ -16,7 +16,7 @@ jobs:
         include:
           - os: ubuntu-latest
             target: linux
-            args: --linux AppImage
+            args: --linux AppImage deb
           - os: windows-latest
             target: win
             args: --win nsis
@@ -47,6 +47,7 @@ jobs:
           name: ${{ matrix.target }}
           path: |
             release/*.AppImage
+            release/*.deb
             release/*.exe
           if-no-files-found: error
 

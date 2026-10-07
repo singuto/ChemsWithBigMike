@@ -20,11 +20,11 @@ npm run app
 npm run package
 ```
 
-`npm run app` builds the page and opens the window. `npm run package` writes an AppImage and a `Chems with big mike.desktop` launcher into `release/`. On Windows, `npm run package:win` writes an NSIS installer instead.
+`npm run app` builds the page and opens the window. `npm run package` writes an AppImage and a `Chems with big mike.desktop` launcher into `release/`. `npm run package:linux` also writes a `.deb`. On Windows, `npm run package:win` writes an NSIS installer instead.
 
 ## Releases
 
-GitHub Actions builds a Linux AppImage and a Windows NSIS installer when you push a version tag. The tag sets the package version (`v0.1.0` → `0.1.0`).
+GitHub Actions builds a Debian/Ubuntu `.deb`, a Linux AppImage, and a Windows NSIS installer when you push a version tag. The tag sets the package version (`v0.1.0` → `0.1.0`).
 
 ```bash
 git tag v0.1.0
@@ -32,6 +32,14 @@ git push origin v0.1.0
 ```
 
 Installers are attached to the GitHub Release for that tag.
+
+On Ubuntu or Debian, install the `.deb`:
+
+```bash
+sudo apt install ./chems-with-big-mike_0.1.0_amd64.deb
+```
+
+On other distros, download the AppImage, mark it executable, and run it.
 
 ## Data
 
